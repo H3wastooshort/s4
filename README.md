@@ -3,6 +3,8 @@
 
 everything is probably broken
 
+i came up with it during the september holidays of 2021 and worked on it a while after. then it just slowly went cold
+
 # what it was supposed to be
 S4 is an unfinished web project by me.
 
