@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(-45deg, #000, #111);
+  background-color: #111;
+  background-size: cover;
+  font-family: sans-serif;
+  color: #eee;
+}
+
+table.card {
+  border: none;
+  background-color: #222;
+}
+
+.card th, .card td {
+  border: solid #077 1px;
+}
+
+.f_num {
+  color: #eee;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.f_name {
+  color: #eee;
+}
+
+.f_desc {
+  color: #ccc;
+}
+
+.f_row:hover {
+  background-color: #555;
+}
+
+.f_img {
+  position: fixed;
+  z-index: 999;
+  top:  0;
+  left:  0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_img button {
+  background-color: #222;
+  color: white;
+  border: solid 1px #077;
+  border-radius: 1px;
+}
+
+.f_img img {
+  border-radius: 1%;
+  max-height: 80vh;
+  max-width: 90vw;
+}
+
+ul.page_sel {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+  display: inherit;
+  border: #077 solid 1px
+}
+
+.page_sel li {
+  float: left;
+  border-right: #077 solid 1px
+}
+
+.page_sel li a {
+  display: block;
+  color: #eee;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.page_sel li a:hover {
+  background-color: #555;
+}
+
+.c_page {
+  background-color: #444;
+}
+
+.r_logo {
+  height: 1em;
+}

@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(-45deg, #fff, #eee);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+table {
+  border: solid black 2px;
+  background-color: beige;
+}
+
+th, td {
+  border: solid black 1px;
+}
+
+.f_num {
+  color: #000;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.f_name {
+  color: #000;
+}
+
+.f_desc {
+  color: #333;
+}
+
+.f_row:hover {
+  background-color: white;
+}
+
+.f_img {
+  position: fixed;
+  z-index: 999;
+  top:  0;
+  left:  0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_img button {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.f_img img {
+  border-radius: 5%;
+  max-height: 80vh;
+  max-width: 90vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: beige;
+  display: inherit;
+  border: black solid 1px
+}
+
+li {
+  float: left;
+  border-right: black solid 1px
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+.c_page {
+  background-color: grey;
+}
+
+.r_logo {
+  height: 1em;
+}

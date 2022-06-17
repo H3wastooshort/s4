@@ -1,0 +1,59 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+hr {
+  color: #077;
+}
+
+input, button, select, textarea {
+  border: #077 solid 1px;
+  background-color: #333;
+  padding: 3px;
+  color: #fff;
+  font-family: monospace;
+  width: auto;
+  margin: 3px;
+}
+
+.btn_list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.btn_list li {
+  margin: 3px;
+  padding: 3px;
+}
+
+.btn_list a, .anchorButton{
+  border: solid #077 1px;
+  padding: 2px;
+  background-color: #333;
+  color: #eee;
+  text-decoration: none;
+}
+
+.anchorButton{
+  padding: 3px;
+  margin: 3px;
+}
+
+.table_pic {
+  max-height: 12vh;
+  max-width: 20vw;
+}
+
+.pic_name {
+  font-family: monospace;
+  border: solid #077 1px;
+  padding: 3px;
+  margin: 2px;
+}
+
+table input {
+  width: max-content;
+}
